@@ -8,3 +8,13 @@ local Window = OrionLib:MakeWindow({
     IntroEnabled = true,
     IntroText = "By rain / May contain bugs. / Pode conter bugs."
 })
+
+local InfoTab = Window:MakeTab({
+	Name = "Info",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local InfoSLP = InfoTab:AddSection({
+	Name = "Info | LocalPlayer"
+})
