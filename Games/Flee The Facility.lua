@@ -11,7 +11,7 @@ local Window = OrionLib:MakeWindow({
 
 local InfoTab = Window:MakeTab({
 	Name = "Info",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://120141940610523",
 	PremiumOnly = false
 })
 
@@ -23,6 +23,12 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 local LInfoLPN = InfoTab:AddLabel("Hello " .. LocalPlayer.Name .. "!")
+
+local SettingsTab = Window:MakeTab({
+	Name = "Settings",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
 OrionLib:MakeNotification({
 	Name = "Ro Hub | Info",
