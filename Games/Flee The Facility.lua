@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Ro Hub | " .. game.Name,
+    Name = "Ro Hub | Flee The Facility",
     HidePremium = false,
     SaveConfig = false,
     ConfigFolder = "Ro Hub Config",
