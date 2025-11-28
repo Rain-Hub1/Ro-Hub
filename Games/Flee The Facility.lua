@@ -19,7 +19,7 @@ local InfoSLP = InfoTab:AddSection({
 	Name = "Info | LocalPlayer"
 })
 
-local PInfoLPN = InfoTab:AddParagraph("Hello " .. PlayerName .. "!", "")
+local PInfoLPN = InfoTab:AddParagraph("Hello User!", "")
 
 OrionLib:MakeNotification({
 	Name = "Ro Hub | Info",
