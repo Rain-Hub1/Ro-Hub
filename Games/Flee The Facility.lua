@@ -5,6 +5,6 @@ local Window = OrionLib:MakeWindow({
     HidePremium = false,
     SaveConfig = false,
     ConfigFolder = "Ro Hub Config",
-    IntroEnabled = true
+    IntroEnabled = true,
     IntroText = "By rain / May contain bugs. / Pode conter bugs."
 })
