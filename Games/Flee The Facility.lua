@@ -18,3 +18,12 @@ local InfoTab = Window:MakeTab({
 local InfoSLP = InfoTab:AddSection({
 	Name = "Info | LocalPlayer"
 })
+
+local PInfoLPN = InfoTab:AddParagraph("Hello " .. PlayerName .. "!", "")
+
+OrionLib:MakeNotification({
+	Name = "Ro Hub | Info",
+	Content = "Hub loaded 100%",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
