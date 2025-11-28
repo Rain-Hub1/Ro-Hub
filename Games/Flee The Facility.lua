@@ -19,7 +19,10 @@ local InfoSLP = InfoTab:AddSection({
 	Name = "Info | LocalPlayer"
 })
 
-local LInfoLPN = InfoTab:AddLabel("Hello " .. PlayerName .. "!")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local LInfoLPN = InfoTab:AddLabel("Hello " .. LocalPlayer.Name .. "!")
 
 OrionLib:MakeNotification({
 	Name = "Ro Hub | Info",
