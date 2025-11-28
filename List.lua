@@ -1,0 +1,5 @@
+local Games = {
+  [""] = ""
+}
+
+return Games
