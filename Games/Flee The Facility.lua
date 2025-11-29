@@ -11,7 +11,7 @@ local Window = OrionLib:MakeWindow({
 
 local InfoTab = Window:MakeTab({
 	Name = "Info",
-	Icon = "rbxassetid://120141940610523",
+	Icon = "rbxassetid://10747373176",
 	PremiumOnly = false
 })
 
