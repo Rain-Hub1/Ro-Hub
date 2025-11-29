@@ -1,4 +1,5 @@
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/jensonhirst/Orion/main/source"))()
+local Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Library/refs/heads/main/redz-V5-remake/Utils/Icons.lua"))()
 
 local Window = OrionLib:MakeWindow({
     Name = "Ro Hub | Flee The Facility",
@@ -11,7 +12,7 @@ local Window = OrionLib:MakeWindow({
 
 local InfoTab = Window:MakeTab({
 	Name = "Info",
-	Icon = "rbxassetid://10747373176",
+	Icon = Icons.user,
 	PremiumOnly = false
 })
 
@@ -26,7 +27,7 @@ local LInfoLPN = InfoTab:AddLabel("Hello " .. LocalPlayer.Name .. "!")
 
 local SettingsTab = Window:MakeTab({
 	Name = "Settings",
-	Icon = "rbxassetid://4483345998",
+	Icon = Icons.settings,
 	PremiumOnly = false
 })
 
