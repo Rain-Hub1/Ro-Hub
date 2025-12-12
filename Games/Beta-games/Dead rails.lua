@@ -17,3 +17,15 @@ local plr = game:GetService("Players").LocalPlayer
 InfoTab:Label({
   Name = "Player name: " .. plr.Name
 })
+
+local exTab = Win:Tab({
+  Name = "Executar"
+})
+
+exTab:Button({
+  Name = "Auto bond",
+  Desc = "Verificado: ❌",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Auto-farm-bond-script-45922"))()
+  end
+})
