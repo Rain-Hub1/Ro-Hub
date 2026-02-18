@@ -206,7 +206,7 @@ local function StartAutoUpgradePet()
 end
 
 local AUTOEXEC_FILE = "kaitun_autoexec.lua"
-local SCRIPT_URL = ".lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/Rain-Hub1/Ro-Hub/refs/heads/main/Games/NewFile.lua"
 
 local function WriteAutoExec()
   writefile(AUTOEXEC_FILE, string.format([[
